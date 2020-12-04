@@ -215,6 +215,57 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1622931288
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1622931290}
+  - component: {fileID: 1622931289}
+  m_Layer: 0
+  m_Name: Tetrominos Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1622931289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1622931288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848a56b9a23663e4395f9e4ac326c6b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Tetrominos:
+  - {fileID: 6473993109794088629, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
+  - {fileID: 8701206082783193431, guid: 77094aea87def2e419ba30af9a042023, type: 3}
+  - {fileID: 7063685351673842137, guid: b8260faa3735e204089d150dc385403f, type: 3}
+  - {fileID: 1089858455099723688, guid: 37503ddf21b72614eb1432fe84887a91, type: 3}
+  - {fileID: 747694233607071734, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
+  - {fileID: 2482448095681847929, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
+  - {fileID: 8597516452634547492, guid: c7692396caf70ad479e7caef0b2be12f, type: 3}
+--- !u!4 &1622931290
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1622931288}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.5, y: 18, z: 4.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1631898368
 GameObject:
   m_ObjectHideFlags: 0
