@@ -33,7 +33,7 @@ public class TetrominoMovement : MonoBehaviour
             if (!ValidMove())
                 transform.position -= new Vector3(1, 0, 0);
         }
-        else if (Input.GetKeyDown(KeyCode.RightArrow))//rotateClockwise
+        else if (Input.GetKeyDown(KeyCode.LeftArrow))//rotateClockwise
         {
             transform.RotateAround(transform.TransformPoint(RotationPoint), new Vector3(0, 0, 1), 90);
             if(!ValidMove())
@@ -46,7 +46,7 @@ public class TetrominoMovement : MonoBehaviour
                 transform.RotateAround(transform.TransformPoint(RotationPoint), new Vector3(0, 0, 1), 90);
         }
 
-        if (Time.time - previousTime > ((/*softDrop*/Input.GetKeyDown(KeyCode.S)) ? fallTime/10 : fallTime))
+        if (Time.time - previousTime > ((Input.GetKeyDown(KeyCode.S)) ? (fallTime/10) : fallTime))
         {
             transform.position += new Vector3(0, -1, 0);
             if(!ValidMove())
