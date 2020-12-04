@@ -5,8 +5,8 @@ using UnityEngine;
 public class TetrominoMovement : MonoBehaviour
 {
     public Vector3 RotationPoint;
-    public static int Ymax = 10;
     public static int Xmax = 10;
+    public static int Ymax = 20;
     public static int Zmax = 10;
 
     private float previousTime;
@@ -21,24 +21,36 @@ public class TetrominoMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (moveNegX)
+        if (Input.GetKeyDown(KeyCode.A))//moveNegX
         {
             transform.position += new Vector3(-1, 0, 0);
+            if (!ValidMove())
+                transform.position -= new Vector3(-1, 0, 0);
         }
-        else if (movePosX)
+        else if (Input.GetKeyDown(KeyCode.D))//movePosX
         {
             transform.position += new Vector3(1, 0, 0);
+            if (!ValidMove())
+                transform.position -= new Vector3(1, 0, 0);
         }
-        else if (rotateClockwise)
+        else if (Input.GetKeyDown(KeyCode.RightArrow))//rotateClockwise
         {
             transform.RotateAround(transform.TransformPoint(RotationPoint), new Vector3(0, 0, 1), 90);
             if(!ValidMove())
                 transform.RotateAround(transform.TransformPoint(RotationPoint), new Vector3(0, 0, 1), -90);
         }
+        else if (Input.GetKeyDown(KeyCode.RightArrow))//rotateCounterclockwise
+        {
+            transform.RotateAround(transform.TransformPoint(RotationPoint), new Vector3(0, 0, 1), -90);
+            if (!ValidMove())
+                transform.RotateAround(transform.TransformPoint(RotationPoint), new Vector3(0, 0, 1), 90);
+        }
 
-        if(Time.time - previousTime > ((softDrop) ? fallTime/10 : fallTime))
+        if (Time.time - previousTime > ((/*softDrop*/Input.GetKeyDown(KeyCode.S)) ? fallTime/10 : fallTime))
         {
             transform.position += new Vector3(0, -1, 0);
+            if(!ValidMove())
+                transform.position -= new Vector3(0, -1, 0);
             previousTime = Time.time;
         }
     }
