@@ -45,10 +45,10 @@ BoxCollider:
   m_GameObject: {fileID: 6473993109794088629}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 4, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.95, y: 3.95, z: 0.95}
+  m_Center: {x: 0, y: -0.5, z: 0}
 --- !u!114 &6765960741170920443
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -203,6 +203,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: I piece (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8997465638882683262, guid: 568dae5a2cd7a5c4d80d5e30d0f37fad, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997465638882683262, guid: 568dae5a2cd7a5c4d80d5e30d0f37fad, type: 3}
+      propertyPath: m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 568dae5a2cd7a5c4d80d5e30d0f37fad, type: 3}
 --- !u!4 &8878762498744486406 stripped
@@ -276,6 +284,10 @@ PrefabInstance:
     - target: {fileID: 7709591571225432218, guid: 568dae5a2cd7a5c4d80d5e30d0f37fad, type: 3}
       propertyPath: m_Name
       value: I piece
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997465638882683262, guid: 568dae5a2cd7a5c4d80d5e30d0f37fad, type: 3}
+      propertyPath: m_Size.x
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 568dae5a2cd7a5c4d80d5e30d0f37fad, type: 3}
