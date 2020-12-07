@@ -110,7 +110,7 @@ public class TetrominoMovement : MonoBehaviour
 
     void CheckForLines()
     {
-        for(int y = Ymax - 1; y > 0 ; y--)
+        for(int y = 0; y < Ymax ; y++)
         {
             if (HasPlane(y))
             {
