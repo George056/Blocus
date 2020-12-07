@@ -13,6 +13,9 @@ public class TetrominoMovement : MonoBehaviour
     private float fallTime = 0.8f;
     private static Transform[,,] grid = new Transform[Xmax, Ymax, Zmax];
 
+    private int frameCount = 0;
+    private int waitFrames = 10;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,32 +25,74 @@ public class TetrominoMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.A))//moveNegX
+        if (frameCount == waitFrames)
         {
-            transform.position += new Vector3(-1, 0, 0);
-            if (!ValidMove())
-                transform.position -= new Vector3(-1, 0, 0);
-        }
-        else if (Input.GetKeyDown(KeyCode.D))//movePosX
-        {
-            transform.position += new Vector3(1, 0, 0);
-            if (!ValidMove())
-                transform.position -= new Vector3(1, 0, 0);
-        }
-        else if (Input.GetKeyDown(KeyCode.LeftArrow))//rotateClockwise
-        {
-            transform.RotateAround(transform.TransformPoint(RotationPoint), new Vector3(0, 0, 1), 90);
-            if(!ValidMove())
-                transform.RotateAround(transform.TransformPoint(RotationPoint), new Vector3(0, 0, 1), -90);
-        }
-        else if (Input.GetKeyDown(KeyCode.RightArrow))//rotateCounterclockwise
-        {
-            transform.RotateAround(transform.TransformPoint(RotationPoint), new Vector3(0, 0, 1), -90);
-            if (!ValidMove())
+            frameCount = 0;
+            if (Input.GetKey(KeyCode.A))//moveNegX
+            {
+                transform.position += new Vector3(-1, 0, 0);
+                if (!ValidMove())
+                    transform.position -= new Vector3(-1, 0, 0);
+            }
+            else if (Input.GetKey(KeyCode.D))//movePosX
+            {
+                transform.position += new Vector3(1, 0, 0);
+                if (!ValidMove())
+                    transform.position -= new Vector3(1, 0, 0);
+            }
+            else if (Input.GetKey(KeyCode.W))
+            {
+                transform.position += new Vector3(0, 0, 1);
+                if (!ValidMove())
+                    transform.position -= new Vector3(0, 0, 1);
+            }
+            else if (Input.GetKey(KeyCode.S))
+            {
+                transform.position += new Vector3(0, 0, -1);
+                if (!ValidMove())
+                    transform.position -= new Vector3(0, 0, -1);
+            }
+            else if (Input.GetKey(KeyCode.LeftArrow))//rotateClockwise
+            {
                 transform.RotateAround(transform.TransformPoint(RotationPoint), new Vector3(0, 0, 1), 90);
+                if (!ValidMove())
+                    transform.RotateAround(transform.TransformPoint(RotationPoint), new Vector3(0, 0, 1), -90);
+            }
+            else if (Input.GetKey(KeyCode.RightArrow))//rotateCounterclockwise
+            {
+                transform.RotateAround(transform.TransformPoint(RotationPoint), new Vector3(0, 0, 1), -90);
+                if (!ValidMove())
+                    transform.RotateAround(transform.TransformPoint(RotationPoint), new Vector3(0, 0, 1), 90);
+            }
+            else if (Input.GetKey(KeyCode.UpArrow))
+            {
+                transform.RotateAround(transform.TransformPoint(RotationPoint), new Vector3(1, 0, 0), 90);
+                if (!ValidMove())
+                    transform.RotateAround(transform.TransformPoint(RotationPoint), new Vector3(1, 0, 0), -90);
+            }
+            else if (Input.GetKey(KeyCode.DownArrow))
+            {
+                transform.RotateAround(transform.TransformPoint(RotationPoint), new Vector3(1, 0, 0), -90);
+                if (!ValidMove())
+                    transform.RotateAround(transform.TransformPoint(RotationPoint), new Vector3(1, 0, 0), 90);
+            }
         }
 
-        if (Time.time - previousTime > ((Input.GetKeyDown(KeyCode.S)) ? (fallTime/10) : fallTime))
+        if (Input.GetKey(KeyCode.E))
+        {
+            do
+            {
+                transform.position += new Vector3(0, -1, 0);
+            } while (ValidMove());
+            if (!ValidMove())
+                transform.position -= new Vector3(0, -1, 0);
+        }
+
+        FixX();
+        FixY();
+        FixZ();
+
+        if (Time.time - previousTime > ((Input.GetKey(KeyCode.X)) ? (fallTime/10) : fallTime))
         {
             transform.position += new Vector3(0, -1, 0);
             if (!ValidMove())
@@ -60,6 +105,7 @@ public class TetrominoMovement : MonoBehaviour
             }
             previousTime = Time.time;
         }
+        frameCount++;
     }
 
     void CheckForLines()
@@ -68,8 +114,8 @@ public class TetrominoMovement : MonoBehaviour
         {
             if (HasPlane(y))
             {
-                DeleteLine(y);
-                RowDown(y);
+                DeletePlane(y);
+                PlaneDown(y);
             }
         }
     }
@@ -94,26 +140,29 @@ public class TetrominoMovement : MonoBehaviour
         return true;
     }
 
-    void DeleteLine(int y)
+    void DeletePlane(int y)
     {
-        for(int x = 0; x < Xmax; x++)
+        for(int x = 0, z = 0; x < Xmax && z < Zmax; x++, z++)
         {
-            Destroy(grid[x, y, 0].gameObject);
-            grid[x, y, 0] = null;
+            Destroy(grid[x, y, z].gameObject);
+            grid[x, y, z] = null;
         }
     }
 
-    void RowDown(int y)
+    void PlaneDown(int y)
     {
         for(int i = y; i < Ymax; i++)
         {
             for(int x = 0; x < Xmax; x++)
             {
-                if(grid[x, i, 0] != null)
+                for (int z = 0; z < Zmax; z++)
                 {
-                    grid[x, i - 1, 0] = grid[x, i, 0];
-                    grid[x, i, 0] = null;
-                    grid[x, i - 1, 0].transform.position -= new Vector3(0, 1, 0);
+                    if (grid[x, i, z] != null)
+                    {
+                        grid[x, i - 1, z] = grid[x, i, 0];
+                        grid[x, i, z] = null;
+                        grid[x, i - 1, z].transform.position -= new Vector3(0, 1, 0);
+                    }
                 }
             }
         }
@@ -147,5 +196,38 @@ public class TetrominoMovement : MonoBehaviour
                 return false;
         }
         return true;
+    }
+
+    void FixY()
+    {
+        int roundedY = Mathf.RoundToInt(transform.position.y);
+        float currentY = transform.position.y;
+
+        if (currentY - roundedY != 0)
+        {
+            transform.position += new Vector3(0, currentY - roundedY, 0);
+        }
+    }
+
+    void FixX()
+    {
+        int roundedX = Mathf.RoundToInt(transform.position.x);
+        float currentX = transform.position.x;
+
+        if (currentX - roundedX != 0)
+        {
+            transform.position += new Vector3(currentX - roundedX, 0, 0);
+        }
+    }
+    
+    void FixZ()
+    {
+        int roundedZ = Mathf.RoundToInt(transform.position.z);
+        float currentZ = transform.position.z;
+
+        if (currentZ - roundedZ != 0)
+        {
+            transform.position += new Vector3(0, 0, currentZ - roundedZ);
+        }
     }
 }
