@@ -9,6 +9,9 @@ public class TetrominoMovement : MonoBehaviour
     public static int Ymax = 20;
     public static int Zmax = 10;
 
+    [HideInInspector] public bool ActivePiece = false;
+    [HideInInspector] public static bool NotLost = true;
+
     private float previousTime;
     private float fallTime = 0.8f;
     private static Transform[,,] grid = new Transform[Xmax, Ymax, Zmax];
@@ -25,7 +28,7 @@ public class TetrominoMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (frameCount == waitFrames)
+        if (frameCount == waitFrames && ActivePiece && NotLost)
         {
             frameCount = 0;
             if (Input.GetKey(KeyCode.A))//moveNegX
@@ -221,7 +224,7 @@ public class TetrominoMovement : MonoBehaviour
         }
     }
 
-    bool ValidMove()
+    public bool ValidMove()
     {
         foreach(Transform child in transform)
         {
@@ -270,5 +273,15 @@ public class TetrominoMovement : MonoBehaviour
         {
             transform.position += new Vector3(0, 0, currentZ - roundedZ);
         }
+    }
+
+    public static void Loss()
+    {
+        NotLost = false;
+    }
+
+    public void SetActive()
+    {
+        ActivePiece = true;
     }
 }

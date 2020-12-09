@@ -15,6 +15,17 @@ public class Spawner : MonoBehaviour
 
     public void NewTetromino()
     {
-        Instantiate(Tetrominos[Random.Range(0, Tetrominos.Length)], transform.position, Quaternion.identity);
+        GameObject peice = Tetrominos[Random.Range(0, Tetrominos.Length)];
+        peice.transform.position = transform.position;
+
+        if (peice.GetComponent<TetrominoMovement>().ValidMove())
+        {
+            peice.GetComponent<TetrominoMovement>().SetActive();
+            Instantiate(peice, transform.position, Quaternion.identity);
+        }
+        else
+        {
+            TetrominoMovement.Loss();
+        }
     }
 }
