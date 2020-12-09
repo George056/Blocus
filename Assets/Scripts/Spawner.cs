@@ -7,6 +7,9 @@ public class Spawner : MonoBehaviour
 
     public GameObject[] Tetrominos;
 
+    [HideInInspector] public GameObject HoldPeice;
+    [HideInInspector] public GameObject[] NextTetrominosList;
+
     // Start is called before the first frame update
     void Start()
     {
