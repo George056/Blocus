@@ -99,6 +99,7 @@ public class TetrominoMovement : MonoBehaviour
             {
                 transform.position -= new Vector3(0, -1, 0);
                 AddToGrid();
+                CheckForPlanes();
                 CheckForLines();
                 this.enabled = false;
                 FindObjectOfType<Spawner>().NewTetromino();
@@ -108,7 +109,7 @@ public class TetrominoMovement : MonoBehaviour
         frameCount++;
     }
 
-    void CheckForLines()
+    void CheckForPlanes()
     {
         for(int y = 0; y < Ymax ; y++)
         {
@@ -163,6 +164,46 @@ public class TetrominoMovement : MonoBehaviour
                         grid[x, i, z] = null;
                         grid[x, i - 1, z].transform.position -= new Vector3(0, 1, 0);
                     }
+                }
+            }
+        }
+    }
+
+    void CheckForLines()
+    {
+        for(int y = Ymax-1; y >= 0; y--)
+        {
+            for (int z = 0; z < Zmax; z++)
+            {
+                if (HasLine(y,z))
+                {
+                    DeleteLine(y,z);
+                    RowDown(y,z);
+                }
+            }
+        }
+    }
+
+    void DeleteLine(int y, int z)
+    {
+        for(int x = 0; x < Xmax; x++)
+        {
+            Destroy(grid[x, y, z].gameObject);
+            grid[x, y, z] = null;
+        }
+    }
+
+    void RowDown(int y, int z)
+    {
+        for(int i = y; i < Ymax; i++)
+        {
+            for(int x = 0; x < Xmax; x++)
+            {
+                if(grid[x, i, z] != null)
+                {
+                    grid[x, i - 1, z] = grid[x, i, z];
+                    grid[x, i, z] = null;
+                    grid[x, i - 1, z].transform.position -= new Vector3(0, 1, 0);
                 }
             }
         }
