@@ -178,6 +178,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 5627177481563509775, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
 --- !u!1001 &6450319
@@ -189,7 +193,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1304788780441070474, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
       propertyPath: m_RootOrder
-      value: 27
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 1304788780441070474, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
       propertyPath: m_LocalPosition.x
@@ -235,6 +239,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: I Tetromino (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6765960741170920443, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
 --- !u!4 &6450320 stripped
@@ -251,7 +259,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1304788780441070474, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1304788780441070474, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
       propertyPath: m_LocalPosition.x
@@ -296,6 +304,10 @@ PrefabInstance:
     - target: {fileID: 6473993109794088629, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
       propertyPath: m_Name
       value: I Tetromino (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6765960741170920443, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
@@ -359,6 +371,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: 5627177481563509775, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
 --- !u!1001 &48715541
@@ -411,6 +427,10 @@ PrefabInstance:
     - target: {fileID: 383815525545768822, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 1589591490792911611, guid: 77094aea87def2e419ba30af9a042023, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8701206082783193431, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_Name
@@ -466,6 +486,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 695766664}
     m_Modifications:
+    - target: {fileID: 315971697355598057, guid: 37503ddf21b72614eb1432fe84887a91, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1089858455099723688, guid: 37503ddf21b72614eb1432fe84887a91, type: 3}
       propertyPath: m_Name
       value: O Tetromino (2)
@@ -571,6 +595,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: 5627177481563509775, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
 --- !u!1001 &79309716
@@ -627,6 +655,10 @@ PrefabInstance:
     - target: {fileID: 2035950496559813260, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6448221285652249536, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
@@ -690,6 +722,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: I Tetromino
       objectReference: {fileID: 0}
+    - target: {fileID: 6765960741170920443, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
 --- !u!4 &106568727 stripped
@@ -751,6 +787,10 @@ PrefabInstance:
     - target: {fileID: 6473993109794088629, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
       propertyPath: m_Name
       value: I Tetromino (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6765960741170920443, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
@@ -814,6 +854,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6448221285652249536, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
 --- !u!4 &146412126 stripped
@@ -834,7 +878,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2713327708299227017, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
       propertyPath: m_RootOrder
-      value: 24
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 2713327708299227017, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
       propertyPath: m_LocalPosition.x
@@ -874,6 +918,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2713327708299227017, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627177481563509775, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -948,6 +996,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6448221285652249536, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
 --- !u!1001 &203409434
@@ -957,6 +1009,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 742039613}
     m_Modifications:
+    - target: {fileID: 315971697355598057, guid: 37503ddf21b72614eb1432fe84887a91, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1089858455099723688, guid: 37503ddf21b72614eb1432fe84887a91, type: 3}
       propertyPath: m_Name
       value: O Tetromino (2)
@@ -1138,6 +1194,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: 1589591490792911611, guid: 77094aea87def2e419ba30af9a042023, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8701206082783193431, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_Name
       value: J Tetromino (1)
@@ -1199,6 +1259,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6448221285652249536, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
 --- !u!4 &289362420 stripped
@@ -1215,7 +1279,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2194614690838894757, guid: c7692396caf70ad479e7caef0b2be12f, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2194614690838894757, guid: c7692396caf70ad479e7caef0b2be12f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1261,6 +1325,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Z Tetromino (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 9105348829202568032, guid: c7692396caf70ad479e7caef0b2be12f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7692396caf70ad479e7caef0b2be12f, type: 3}
 --- !u!4 &291038482 stripped
@@ -1286,7 +1354,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2035950496559813260, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
       propertyPath: m_RootOrder
-      value: 21
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 2035950496559813260, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1327,6 +1395,10 @@ PrefabInstance:
     - target: {fileID: 2035950496559813260, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6448221285652249536, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
@@ -1385,6 +1457,10 @@ PrefabInstance:
     - target: {fileID: 383815525545768822, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1589591490792911611, guid: 77094aea87def2e419ba30af9a042023, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8701206082783193431, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_Name
@@ -1453,6 +1529,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: 1589591490792911611, guid: 77094aea87def2e419ba30af9a042023, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8701206082783193431, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_Name
       value: J Tetromino (4)
@@ -1514,6 +1594,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 5627177481563509775, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
 --- !u!1001 &326598653
@@ -1565,6 +1649,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 383815525545768822, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1589591490792911611, guid: 77094aea87def2e419ba30af9a042023, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8701206082783193431, guid: 77094aea87def2e419ba30af9a042023, type: 3}
@@ -1628,6 +1716,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6448221285652249536, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
 --- !u!4 &330572669 stripped
@@ -1642,6 +1734,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 742039613}
     m_Modifications:
+    - target: {fileID: 315971697355598057, guid: 37503ddf21b72614eb1432fe84887a91, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1089858455099723688, guid: 37503ddf21b72614eb1432fe84887a91, type: 3}
       propertyPath: m_Name
       value: O Tetromino
@@ -1699,6 +1795,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 695766664}
     m_Modifications:
+    - target: {fileID: 315971697355598057, guid: 37503ddf21b72614eb1432fe84887a91, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1089858455099723688, guid: 37503ddf21b72614eb1432fe84887a91, type: 3}
       propertyPath: m_Name
       value: O Tetromino (1)
@@ -1805,6 +1905,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 3112660170714801116, guid: b8260faa3735e204089d150dc385403f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7063685351673842137, guid: b8260faa3735e204089d150dc385403f, type: 3}
       propertyPath: m_Name
       value: L Tetromino (1)
@@ -1820,7 +1924,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 383815525545768822, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 383815525545768822, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1861,6 +1965,10 @@ PrefabInstance:
     - target: {fileID: 383815525545768822, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1589591490792911611, guid: 77094aea87def2e419ba30af9a042023, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8701206082783193431, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_Name
@@ -1934,6 +2042,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1589591490792911611, guid: 77094aea87def2e419ba30af9a042023, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8701206082783193431, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_Name
       value: J Tetromino (6)
@@ -1990,6 +2102,10 @@ PrefabInstance:
     - target: {fileID: 383815525545768822, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1589591490792911611, guid: 77094aea87def2e419ba30af9a042023, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8701206082783193431, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_Name
@@ -2129,6 +2245,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: 5627177481563509775, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
 --- !u!1001 &449646855
@@ -2181,6 +2301,10 @@ PrefabInstance:
     - target: {fileID: 1016754872931120853, guid: b8260faa3735e204089d150dc385403f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 3112660170714801116, guid: b8260faa3735e204089d150dc385403f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7063685351673842137, guid: b8260faa3735e204089d150dc385403f, type: 3}
       propertyPath: m_Name
@@ -2244,6 +2368,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: 3112660170714801116, guid: b8260faa3735e204089d150dc385403f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7063685351673842137, guid: b8260faa3735e204089d150dc385403f, type: 3}
       propertyPath: m_Name
       value: L Tetromino
@@ -2257,6 +2385,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 403708470}
     m_Modifications:
+    - target: {fileID: 315971697355598057, guid: 37503ddf21b72614eb1432fe84887a91, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1089858455099723688, guid: 37503ddf21b72614eb1432fe84887a91, type: 3}
       propertyPath: m_Name
       value: O Tetromino (2)
@@ -2362,6 +2494,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 5627177481563509775, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
 --- !u!1001 &472823642
@@ -2415,6 +2551,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1589591490792911611, guid: 77094aea87def2e419ba30af9a042023, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8701206082783193431, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_Name
       value: J Tetromino (3)
@@ -2444,7 +2584,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2035950496559813260, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 2035950496559813260, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2486,6 +2626,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6448221285652249536, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
 --- !u!4 &514077131 stripped
@@ -2506,7 +2650,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2713327708299227017, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
       propertyPath: m_RootOrder
-      value: 26
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 2713327708299227017, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2547,6 +2691,10 @@ PrefabInstance:
     - target: {fileID: 2713327708299227017, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627177481563509775, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
@@ -2615,6 +2763,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: I Tetromino
       objectReference: {fileID: 0}
+    - target: {fileID: 6765960741170920443, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
 --- !u!4 &528184221 stripped
@@ -2677,6 +2829,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: I Tetromino (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6765960741170920443, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
 --- !u!4 &534613109 stripped
@@ -2701,6 +2857,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 243497185}
     m_Modifications:
+    - target: {fileID: 315971697355598057, guid: 37503ddf21b72614eb1432fe84887a91, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1089858455099723688, guid: 37503ddf21b72614eb1432fe84887a91, type: 3}
       propertyPath: m_Name
       value: O Tetromino
@@ -2760,7 +2920,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1304788780441070474, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1304788780441070474, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2805,6 +2965,10 @@ PrefabInstance:
     - target: {fileID: 6473993109794088629, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
       propertyPath: m_Name
       value: I Tetromino
+      objectReference: {fileID: 0}
+    - target: {fileID: 6765960741170920443, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
@@ -2874,6 +3038,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 1589591490792911611, guid: 77094aea87def2e419ba30af9a042023, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8701206082783193431, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_Name
       value: J Tetromino (6)
@@ -2941,6 +3109,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 1589591490792911611, guid: 77094aea87def2e419ba30af9a042023, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8701206082783193431, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_Name
       value: J Tetromino
@@ -2956,7 +3128,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 383815525545768822, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 383815525545768822, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2998,6 +3170,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1589591490792911611, guid: 77094aea87def2e419ba30af9a042023, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8701206082783193431, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_Name
       value: J Tetromino (5)
@@ -3016,13 +3192,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2008551726}
     m_Modifications:
+    - target: {fileID: 315971697355598057, guid: 37503ddf21b72614eb1432fe84887a91, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1089858455099723688, guid: 37503ddf21b72614eb1432fe84887a91, type: 3}
       propertyPath: m_Name
       value: O Tetromino
       objectReference: {fileID: 0}
     - target: {fileID: 7072273716421119375, guid: 37503ddf21b72614eb1432fe84887a91, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7072273716421119375, guid: 37503ddf21b72614eb1432fe84887a91, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3136,6 +3316,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: I Tetromino (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6765960741170920443, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
 --- !u!4 &618634060 stripped
@@ -3152,7 +3336,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1304788780441070474, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1304788780441070474, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3198,6 +3382,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: I Tetromino (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6765960741170920443, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
 --- !u!4 &622855262 stripped
@@ -3223,7 +3411,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2035950496559813260, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 2035950496559813260, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3264,6 +3452,10 @@ PrefabInstance:
     - target: {fileID: 2035950496559813260, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6448221285652249536, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
@@ -3327,6 +3519,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: I Tetromino (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6765960741170920443, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
 --- !u!1001 &654146772
@@ -3383,6 +3579,10 @@ PrefabInstance:
     - target: {fileID: 2713327708299227017, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627177481563509775, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
@@ -3446,6 +3646,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Z Tetromino
       objectReference: {fileID: 0}
+    - target: {fileID: 9105348829202568032, guid: c7692396caf70ad479e7caef0b2be12f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7692396caf70ad479e7caef0b2be12f, type: 3}
 --- !u!1001 &692608073
@@ -3461,7 +3665,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2713327708299227017, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
       propertyPath: m_RootOrder
-      value: 20
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 2713327708299227017, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3502,6 +3706,10 @@ PrefabInstance:
     - target: {fileID: 2713327708299227017, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627177481563509775, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
@@ -3612,6 +3820,10 @@ PrefabInstance:
     - target: {fileID: 383815525545768822, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 1589591490792911611, guid: 77094aea87def2e419ba30af9a042023, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8701206082783193431, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_Name
@@ -3762,6 +3974,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: 1589591490792911611, guid: 77094aea87def2e419ba30af9a042023, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8701206082783193431, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_Name
       value: J Tetromino (5)
@@ -3828,6 +4044,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Z Tetromino (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 9105348829202568032, guid: c7692396caf70ad479e7caef0b2be12f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7692396caf70ad479e7caef0b2be12f, type: 3}
 --- !u!1001 &729095444
@@ -3884,6 +4104,10 @@ PrefabInstance:
     - target: {fileID: 6473993109794088629, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
       propertyPath: m_Name
       value: I Tetromino (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6765960741170920443, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
@@ -3942,6 +4166,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5627177481563509775, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
 --- !u!1001 &735053042
@@ -3998,6 +4226,10 @@ PrefabInstance:
     - target: {fileID: 2035950496559813260, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6448221285652249536, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
@@ -4126,6 +4358,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: I Tetromino (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6765960741170920443, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
 --- !u!1001 &755287642
@@ -4181,6 +4417,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2035950496559813260, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6448221285652249536, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -4245,6 +4485,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: I Tetromino (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6765960741170920443, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
 --- !u!4 &764974252 stripped
@@ -4303,6 +4547,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 3112660170714801116, guid: b8260faa3735e204089d150dc385403f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7063685351673842137, guid: b8260faa3735e204089d150dc385403f, type: 3}
       propertyPath: m_Name
       value: L Tetromino (4)
@@ -4323,7 +4571,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1304788780441070474, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
       propertyPath: m_RootOrder
-      value: 29
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 1304788780441070474, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4369,6 +4617,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: I Tetromino (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6765960741170920443, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
 --- !u!4 &778213177 stripped
@@ -4398,6 +4650,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1022921905}
     m_Modifications:
+    - target: {fileID: 315971697355598057, guid: 37503ddf21b72614eb1432fe84887a91, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1089858455099723688, guid: 37503ddf21b72614eb1432fe84887a91, type: 3}
       propertyPath: m_Name
       value: O Tetromino
@@ -4503,6 +4759,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6448221285652249536, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
 --- !u!1001 &814623055
@@ -4554,6 +4814,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1016754872931120853, guid: b8260faa3735e204089d150dc385403f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3112660170714801116, guid: b8260faa3735e204089d150dc385403f, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7063685351673842137, guid: b8260faa3735e204089d150dc385403f, type: 3}
@@ -4613,6 +4877,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3112660170714801116, guid: b8260faa3735e204089d150dc385403f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7063685351673842137, guid: b8260faa3735e204089d150dc385403f, type: 3}
       propertyPath: m_Name
       value: L Tetromino (3)
@@ -4628,7 +4896,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 383815525545768822, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_RootOrder
-      value: 23
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 383815525545768822, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4669,6 +4937,10 @@ PrefabInstance:
     - target: {fileID: 383815525545768822, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1589591490792911611, guid: 77094aea87def2e419ba30af9a042023, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8701206082783193431, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_Name
@@ -4736,6 +5008,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: I Tetromino (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6765960741170920443, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
 --- !u!1001 &855693227
@@ -4791,6 +5067,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2035950496559813260, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6448221285652249536, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -4855,6 +5135,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: I Tetromino (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6765960741170920443, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
 --- !u!4 &887879570 stripped
@@ -4881,7 +5165,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 383815525545768822, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_RootOrder
-      value: 22
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 383815525545768822, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4923,6 +5207,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1589591490792911611, guid: 77094aea87def2e419ba30af9a042023, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8701206082783193431, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_Name
       value: J Tetromino (7)
@@ -4943,7 +5231,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1016754872931120853, guid: b8260faa3735e204089d150dc385403f, type: 3}
       propertyPath: m_RootOrder
-      value: 28
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 1016754872931120853, guid: b8260faa3735e204089d150dc385403f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4984,6 +5272,10 @@ PrefabInstance:
     - target: {fileID: 1016754872931120853, guid: b8260faa3735e204089d150dc385403f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3112660170714801116, guid: b8260faa3735e204089d150dc385403f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7063685351673842137, guid: b8260faa3735e204089d150dc385403f, type: 3}
       propertyPath: m_Name
@@ -5046,6 +5338,10 @@ PrefabInstance:
     - target: {fileID: 1016754872931120853, guid: b8260faa3735e204089d150dc385403f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3112660170714801116, guid: b8260faa3735e204089d150dc385403f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7063685351673842137, guid: b8260faa3735e204089d150dc385403f, type: 3}
       propertyPath: m_Name
@@ -5197,6 +5493,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: 1589591490792911611, guid: 77094aea87def2e419ba30af9a042023, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8701206082783193431, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_Name
       value: J Tetromino (3)
@@ -5212,7 +5512,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1304788780441070474, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1304788780441070474, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5257,6 +5557,10 @@ PrefabInstance:
     - target: {fileID: 6473993109794088629, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
       propertyPath: m_Name
       value: I Tetromino (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6765960741170920443, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
@@ -5330,6 +5634,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: I Tetromino (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6765960741170920443, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
 --- !u!4 &989077144 stripped
@@ -5387,6 +5695,10 @@ PrefabInstance:
     - target: {fileID: 383815525545768822, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 1589591490792911611, guid: 77094aea87def2e419ba30af9a042023, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8701206082783193431, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_Name
@@ -5454,6 +5766,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5627177481563509775, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
 --- !u!4 &1021428984 stripped
@@ -5512,6 +5828,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 1589591490792911611, guid: 77094aea87def2e419ba30af9a042023, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8701206082783193431, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_Name
       value: J Tetromino
@@ -5536,7 +5856,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2035950496559813260, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
       propertyPath: m_RootOrder
-      value: 25
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 2035950496559813260, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5577,6 +5897,10 @@ PrefabInstance:
     - target: {fileID: 2035950496559813260, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6448221285652249536, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
@@ -5667,7 +5991,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2194614690838894757, guid: c7692396caf70ad479e7caef0b2be12f, type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 2194614690838894757, guid: c7692396caf70ad479e7caef0b2be12f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5712,6 +6036,10 @@ PrefabInstance:
     - target: {fileID: 8597516452634547492, guid: c7692396caf70ad479e7caef0b2be12f, type: 3}
       propertyPath: m_Name
       value: Z Tetromino (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9105348829202568032, guid: c7692396caf70ad479e7caef0b2be12f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7692396caf70ad479e7caef0b2be12f, type: 3}
@@ -5770,6 +6098,10 @@ PrefabInstance:
     - target: {fileID: 1016754872931120853, guid: b8260faa3735e204089d150dc385403f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3112660170714801116, guid: b8260faa3735e204089d150dc385403f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7063685351673842137, guid: b8260faa3735e204089d150dc385403f, type: 3}
       propertyPath: m_Name
@@ -5832,6 +6164,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6448221285652249536, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
 --- !u!1001 &1095803024
@@ -5843,7 +6179,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1016754872931120853, guid: b8260faa3735e204089d150dc385403f, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1016754872931120853, guid: b8260faa3735e204089d150dc385403f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5885,6 +6221,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 3112660170714801116, guid: b8260faa3735e204089d150dc385403f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7063685351673842137, guid: b8260faa3735e204089d150dc385403f, type: 3}
       propertyPath: m_Name
       value: L Tetromino (5)
@@ -5920,7 +6260,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 383815525545768822, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 383815525545768822, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5961,6 +6301,10 @@ PrefabInstance:
     - target: {fileID: 383815525545768822, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 1589591490792911611, guid: 77094aea87def2e419ba30af9a042023, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8701206082783193431, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_Name
@@ -6028,6 +6372,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6448221285652249536, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
 --- !u!4 &1125949926 stripped
@@ -6085,6 +6433,10 @@ PrefabInstance:
     - target: {fileID: 383815525545768822, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 1589591490792911611, guid: 77094aea87def2e419ba30af9a042023, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8701206082783193431, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_Name
@@ -6413,6 +6765,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: I Tetromino (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6765960741170920443, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
 --- !u!4 &1152259394 stripped
@@ -6434,7 +6790,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 383815525545768822, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_RootOrder
-      value: 27
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 383815525545768822, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6474,6 +6830,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 383815525545768822, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1589591490792911611, guid: 77094aea87def2e419ba30af9a042023, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8701206082783193431, guid: 77094aea87def2e419ba30af9a042023, type: 3}
@@ -6541,6 +6901,10 @@ PrefabInstance:
     - target: {fileID: 6473993109794088629, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
       propertyPath: m_Name
       value: I Tetromino (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6765960741170920443, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
@@ -6670,6 +7034,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Z Tetromino (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 9105348829202568032, guid: c7692396caf70ad479e7caef0b2be12f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7692396caf70ad479e7caef0b2be12f, type: 3}
 --- !u!4 &1185668649 stripped
@@ -6684,6 +7052,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 695766664}
     m_Modifications:
+    - target: {fileID: 315971697355598057, guid: 37503ddf21b72614eb1432fe84887a91, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1089858455099723688, guid: 37503ddf21b72614eb1432fe84887a91, type: 3}
       propertyPath: m_Name
       value: O Tetromino (3)
@@ -6789,6 +7161,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6448221285652249536, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
 --- !u!4 &1195955585 stripped
@@ -6846,6 +7222,10 @@ PrefabInstance:
     - target: {fileID: 1016754872931120853, guid: b8260faa3735e204089d150dc385403f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3112660170714801116, guid: b8260faa3735e204089d150dc385403f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7063685351673842137, guid: b8260faa3735e204089d150dc385403f, type: 3}
       propertyPath: m_Name
@@ -6908,6 +7288,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 5627177481563509775, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
 --- !u!1001 &1204269882
@@ -6964,6 +7348,10 @@ PrefabInstance:
     - target: {fileID: 2713327708299227017, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627177481563509775, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
@@ -7026,6 +7414,10 @@ PrefabInstance:
     - target: {fileID: 2035950496559813260, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6448221285652249536, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
@@ -7095,6 +7487,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 1589591490792911611, guid: 77094aea87def2e419ba30af9a042023, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8701206082783193431, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_Name
       value: J Tetromino (5)
@@ -7151,6 +7547,10 @@ PrefabInstance:
     - target: {fileID: 1016754872931120853, guid: b8260faa3735e204089d150dc385403f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 3112660170714801116, guid: b8260faa3735e204089d150dc385403f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7063685351673842137, guid: b8260faa3735e204089d150dc385403f, type: 3}
       propertyPath: m_Name
@@ -7308,6 +7708,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1589591490792911611, guid: 77094aea87def2e419ba30af9a042023, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8701206082783193431, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_Name
       value: J Tetromino (5)
@@ -7364,6 +7768,10 @@ PrefabInstance:
     - target: {fileID: 383815525545768822, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 1589591490792911611, guid: 77094aea87def2e419ba30af9a042023, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8701206082783193431, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_Name
@@ -7430,6 +7838,10 @@ PrefabInstance:
     - target: {fileID: 8597516452634547492, guid: c7692396caf70ad479e7caef0b2be12f, type: 3}
       propertyPath: m_Name
       value: Z Tetromino
+      objectReference: {fileID: 0}
+    - target: {fileID: 9105348829202568032, guid: c7692396caf70ad479e7caef0b2be12f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7692396caf70ad479e7caef0b2be12f, type: 3}
@@ -7503,6 +7915,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6448221285652249536, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
 --- !u!4 &1321635709 stripped
@@ -7560,6 +7976,10 @@ PrefabInstance:
     - target: {fileID: 383815525545768822, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1589591490792911611, guid: 77094aea87def2e419ba30af9a042023, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8701206082783193431, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_Name
@@ -7622,6 +8042,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6448221285652249536, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
 --- !u!1001 &1358545952
@@ -7678,6 +8102,10 @@ PrefabInstance:
     - target: {fileID: 2713327708299227017, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627177481563509775, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
@@ -7758,6 +8186,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1022921905}
     m_Modifications:
+    - target: {fileID: 315971697355598057, guid: 37503ddf21b72614eb1432fe84887a91, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1089858455099723688, guid: 37503ddf21b72614eb1432fe84887a91, type: 3}
       propertyPath: m_Name
       value: O Tetromino (3)
@@ -7859,6 +8291,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: 1589591490792911611, guid: 77094aea87def2e419ba30af9a042023, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8701206082783193431, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_Name
       value: J Tetromino (2)
@@ -7914,6 +8350,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 383815525545768822, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1589591490792911611, guid: 77094aea87def2e419ba30af9a042023, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8701206082783193431, guid: 77094aea87def2e419ba30af9a042023, type: 3}
@@ -7977,6 +8417,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6448221285652249536, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
 --- !u!1001 &1423469862
@@ -8033,6 +8477,10 @@ PrefabInstance:
     - target: {fileID: 8597516452634547492, guid: c7692396caf70ad479e7caef0b2be12f, type: 3}
       propertyPath: m_Name
       value: Z Tetromino
+      objectReference: {fileID: 0}
+    - target: {fileID: 9105348829202568032, guid: c7692396caf70ad479e7caef0b2be12f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7692396caf70ad479e7caef0b2be12f, type: 3}
@@ -8091,6 +8539,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Z Tetromino
       objectReference: {fileID: 0}
+    - target: {fileID: 9105348829202568032, guid: c7692396caf70ad479e7caef0b2be12f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7692396caf70ad479e7caef0b2be12f, type: 3}
 --- !u!1001 &1448829777
@@ -8143,6 +8595,10 @@ PrefabInstance:
     - target: {fileID: 383815525545768822, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1589591490792911611, guid: 77094aea87def2e419ba30af9a042023, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8701206082783193431, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_Name
@@ -8200,6 +8656,10 @@ PrefabInstance:
     - target: {fileID: 383815525545768822, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1589591490792911611, guid: 77094aea87def2e419ba30af9a042023, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8701206082783193431, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_Name
@@ -8267,6 +8727,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 5627177481563509775, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
 --- !u!4 &1455386240 stripped
@@ -8329,6 +8793,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: I Tetromino
       objectReference: {fileID: 0}
+    - target: {fileID: 6765960741170920443, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
 --- !u!4 &1482114144 stripped
@@ -8385,6 +8853,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1016754872931120853, guid: b8260faa3735e204089d150dc385403f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3112660170714801116, guid: b8260faa3735e204089d150dc385403f, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7063685351673842137, guid: b8260faa3735e204089d150dc385403f, type: 3}
@@ -8454,6 +8926,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 3112660170714801116, guid: b8260faa3735e204089d150dc385403f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7063685351673842137, guid: b8260faa3735e204089d150dc385403f, type: 3}
       propertyPath: m_Name
       value: L Tetromino (5)
@@ -8472,6 +8948,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 403708470}
     m_Modifications:
+    - target: {fileID: 315971697355598057, guid: 37503ddf21b72614eb1432fe84887a91, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1089858455099723688, guid: 37503ddf21b72614eb1432fe84887a91, type: 3}
       propertyPath: m_Name
       value: O Tetromino
@@ -8578,6 +9058,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 1589591490792911611, guid: 77094aea87def2e419ba30af9a042023, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8701206082783193431, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_Name
       value: J Tetromino (5)
@@ -8634,6 +9118,10 @@ PrefabInstance:
     - target: {fileID: 383815525545768822, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1589591490792911611, guid: 77094aea87def2e419ba30af9a042023, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8701206082783193431, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_Name
@@ -8711,6 +9199,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: I Tetromino (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6765960741170920443, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
 --- !u!1001 &1556098686
@@ -8762,6 +9254,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 383815525545768822, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1589591490792911611, guid: 77094aea87def2e419ba30af9a042023, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8701206082783193431, guid: 77094aea87def2e419ba30af9a042023, type: 3}
@@ -8820,6 +9316,10 @@ PrefabInstance:
     - target: {fileID: 383815525545768822, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 1589591490792911611, guid: 77094aea87def2e419ba30af9a042023, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8701206082783193431, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_Name
@@ -8892,6 +9392,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: I Tetromino (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6765960741170920443, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
 --- !u!1001 &1580033565
@@ -8944,6 +9448,10 @@ PrefabInstance:
     - target: {fileID: 383815525545768822, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 1589591490792911611, guid: 77094aea87def2e419ba30af9a042023, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8701206082783193431, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_Name
@@ -9016,6 +9524,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6448221285652249536, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
 --- !u!4 &1602505004 stripped
@@ -9077,6 +9589,10 @@ PrefabInstance:
     - target: {fileID: 8597516452634547492, guid: c7692396caf70ad479e7caef0b2be12f, type: 3}
       propertyPath: m_Name
       value: Z Tetromino (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9105348829202568032, guid: c7692396caf70ad479e7caef0b2be12f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7692396caf70ad479e7caef0b2be12f, type: 3}
@@ -9140,6 +9656,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: 5627177481563509775, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
 --- !u!4 &1610946147 stripped
@@ -9198,6 +9718,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1589591490792911611, guid: 77094aea87def2e419ba30af9a042023, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8701206082783193431, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_Name
       value: J Tetromino (2)
@@ -9216,6 +9740,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 742039613}
     m_Modifications:
+    - target: {fileID: 315971697355598057, guid: 37503ddf21b72614eb1432fe84887a91, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1089858455099723688, guid: 37503ddf21b72614eb1432fe84887a91, type: 3}
       propertyPath: m_Name
       value: O Tetromino (3)
@@ -9317,6 +9845,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 3112660170714801116, guid: b8260faa3735e204089d150dc385403f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7063685351673842137, guid: b8260faa3735e204089d150dc385403f, type: 3}
       propertyPath: m_Name
       value: L Tetromino (2)
@@ -9378,6 +9910,10 @@ PrefabInstance:
     - target: {fileID: 383815525545768822, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1589591490792911611, guid: 77094aea87def2e419ba30af9a042023, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8701206082783193431, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_Name
@@ -9445,6 +9981,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5627177481563509775, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
 --- !u!1001 &1655749474
@@ -9456,7 +9996,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 383815525545768822, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 383815525545768822, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9497,6 +10037,10 @@ PrefabInstance:
     - target: {fileID: 383815525545768822, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1589591490792911611, guid: 77094aea87def2e419ba30af9a042023, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8701206082783193431, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_Name
@@ -9569,6 +10113,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Z Tetromino (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 9105348829202568032, guid: c7692396caf70ad479e7caef0b2be12f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7692396caf70ad479e7caef0b2be12f, type: 3}
 --- !u!1001 &1661706275
@@ -9625,6 +10173,10 @@ PrefabInstance:
     - target: {fileID: 6473993109794088629, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
       propertyPath: m_Name
       value: I Tetromino (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6765960741170920443, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
@@ -9683,6 +10235,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: I Tetromino (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6765960741170920443, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
 --- !u!1001 &1674855369
@@ -9694,7 +10250,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1304788780441070474, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
       propertyPath: m_RootOrder
-      value: 26
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 1304788780441070474, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9739,6 +10295,10 @@ PrefabInstance:
     - target: {fileID: 6473993109794088629, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
       propertyPath: m_Name
       value: I Tetromino (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6765960741170920443, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
@@ -9802,6 +10362,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 6448221285652249536, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
 --- !u!4 &1684370003 stripped
@@ -9863,6 +10427,10 @@ PrefabInstance:
     - target: {fileID: 6473993109794088629, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
       propertyPath: m_Name
       value: I Tetromino (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6765960741170920443, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
@@ -9926,6 +10494,10 @@ PrefabInstance:
     - target: {fileID: 383815525545768822, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1589591490792911611, guid: 77094aea87def2e419ba30af9a042023, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8701206082783193431, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_Name
@@ -9993,6 +10565,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: I Tetromino (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6765960741170920443, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
 --- !u!4 &1717548031 stripped
@@ -10049,6 +10625,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 383815525545768822, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1589591490792911611, guid: 77094aea87def2e419ba30af9a042023, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8701206082783193431, guid: 77094aea87def2e419ba30af9a042023, type: 3}
@@ -10108,6 +10688,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 3112660170714801116, guid: b8260faa3735e204089d150dc385403f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7063685351673842137, guid: b8260faa3735e204089d150dc385403f, type: 3}
       propertyPath: m_Name
       value: L Tetromino (1)
@@ -10164,6 +10748,10 @@ PrefabInstance:
     - target: {fileID: 1016754872931120853, guid: b8260faa3735e204089d150dc385403f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 3112660170714801116, guid: b8260faa3735e204089d150dc385403f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7063685351673842137, guid: b8260faa3735e204089d150dc385403f, type: 3}
       propertyPath: m_Name
@@ -10232,6 +10820,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 1589591490792911611, guid: 77094aea87def2e419ba30af9a042023, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8701206082783193431, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_Name
       value: J Tetromino (4)
@@ -10252,7 +10844,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1016754872931120853, guid: b8260faa3735e204089d150dc385403f, type: 3}
       propertyPath: m_RootOrder
-      value: 25
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 1016754872931120853, guid: b8260faa3735e204089d150dc385403f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10294,6 +10886,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: 3112660170714801116, guid: b8260faa3735e204089d150dc385403f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7063685351673842137, guid: b8260faa3735e204089d150dc385403f, type: 3}
       propertyPath: m_Name
       value: L Tetromino (6)
@@ -10312,6 +10908,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 403708470}
     m_Modifications:
+    - target: {fileID: 315971697355598057, guid: 37503ddf21b72614eb1432fe84887a91, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1089858455099723688, guid: 37503ddf21b72614eb1432fe84887a91, type: 3}
       propertyPath: m_Name
       value: O Tetromino (3)
@@ -10369,6 +10969,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 403708470}
     m_Modifications:
+    - target: {fileID: 315971697355598057, guid: 37503ddf21b72614eb1432fe84887a91, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1089858455099723688, guid: 37503ddf21b72614eb1432fe84887a91, type: 3}
       propertyPath: m_Name
       value: O Tetromino (1)
@@ -10484,6 +11088,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Z Tetromino (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 9105348829202568032, guid: c7692396caf70ad479e7caef0b2be12f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7692396caf70ad479e7caef0b2be12f, type: 3}
 --- !u!1001 &1811825113
@@ -10493,6 +11101,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1022921905}
     m_Modifications:
+    - target: {fileID: 315971697355598057, guid: 37503ddf21b72614eb1432fe84887a91, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1089858455099723688, guid: 37503ddf21b72614eb1432fe84887a91, type: 3}
       propertyPath: m_Name
       value: O Tetromino (2)
@@ -10599,6 +11211,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3112660170714801116, guid: b8260faa3735e204089d150dc385403f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7063685351673842137, guid: b8260faa3735e204089d150dc385403f, type: 3}
       propertyPath: m_Name
       value: L Tetromino (3)
@@ -10666,6 +11282,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: 1589591490792911611, guid: 77094aea87def2e419ba30af9a042023, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8701206082783193431, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_Name
       value: J Tetromino (4)
@@ -10679,6 +11299,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 695766664}
     m_Modifications:
+    - target: {fileID: 315971697355598057, guid: 37503ddf21b72614eb1432fe84887a91, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1089858455099723688, guid: 37503ddf21b72614eb1432fe84887a91, type: 3}
       propertyPath: m_Name
       value: O Tetromino
@@ -10804,6 +11428,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6448221285652249536, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
 --- !u!4 &1895004025 stripped
@@ -10861,6 +11489,10 @@ PrefabInstance:
     - target: {fileID: 383815525545768822, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 1589591490792911611, guid: 77094aea87def2e419ba30af9a042023, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8701206082783193431, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_Name
@@ -10922,6 +11554,10 @@ PrefabInstance:
     - target: {fileID: 6473993109794088629, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
       propertyPath: m_Name
       value: I Tetromino
+      objectReference: {fileID: 0}
+    - target: {fileID: 6765960741170920443, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
@@ -10991,6 +11627,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 3112660170714801116, guid: b8260faa3735e204089d150dc385403f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7063685351673842137, guid: b8260faa3735e204089d150dc385403f, type: 3}
       propertyPath: m_Name
       value: L Tetromino (5)
@@ -11052,6 +11692,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6448221285652249536, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
 --- !u!1001 &1953146399
@@ -11108,6 +11752,10 @@ PrefabInstance:
     - target: {fileID: 6473993109794088629, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
       propertyPath: m_Name
       value: I Tetromino
+      objectReference: {fileID: 0}
+    - target: {fileID: 6765960741170920443, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
@@ -11166,6 +11814,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: I Tetromino (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6765960741170920443, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
 --- !u!1001 &1958235240
@@ -11222,6 +11874,10 @@ PrefabInstance:
     - target: {fileID: 6473993109794088629, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
       propertyPath: m_Name
       value: I Tetromino (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6765960741170920443, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcff6831fbacf584a8c8cccc22452b45, type: 3}
@@ -11284,6 +11940,10 @@ PrefabInstance:
     - target: {fileID: 8597516452634547492, guid: c7692396caf70ad479e7caef0b2be12f, type: 3}
       propertyPath: m_Name
       value: Z Tetromino
+      objectReference: {fileID: 0}
+    - target: {fileID: 9105348829202568032, guid: c7692396caf70ad479e7caef0b2be12f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7692396caf70ad479e7caef0b2be12f, type: 3}
@@ -11471,9 +12131,9 @@ Transform:
   m_LocalPosition: {x: -3.15, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 604923330}
   - {fileID: 1095803025}
   - {fileID: 622855262}
-  - {fileID: 604923330}
   - {fileID: 1120591853}
   - {fileID: 969660824}
   - {fileID: 1655749475}
@@ -11492,14 +12152,14 @@ Transform:
   - {fileID: 922490781}
   - {fileID: 837966085}
   - {fileID: 174546651}
-  - {fileID: 1022815002}
-  - {fileID: 521615031}
-  - {fileID: 6450320}
-  - {fileID: 778213177}
   - {fileID: 1773538322}
+  - {fileID: 1022815002}
   - {fileID: 1674855370}
+  - {fileID: 521615031}
   - {fileID: 1162566746}
+  - {fileID: 6450320}
   - {fileID: 924733812}
+  - {fileID: 778213177}
   m_Father: {fileID: 56514178}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -11512,7 +12172,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 383815525545768822, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 383815525545768822, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11554,6 +12214,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: 1589591490792911611, guid: 77094aea87def2e419ba30af9a042023, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8701206082783193431, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_Name
       value: J Tetromino (3)
@@ -11578,7 +12242,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2713327708299227017, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 2713327708299227017, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11619,6 +12283,10 @@ PrefabInstance:
     - target: {fileID: 2713327708299227017, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627177481563509775, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
@@ -11695,6 +12363,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2713327708299227017, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627177481563509775, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -11903,6 +12575,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6448221285652249536, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
 --- !u!4 &2114150717 stripped
@@ -11963,6 +12639,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2035950496559813260, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6448221285652249536, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -12027,6 +12707,10 @@ PrefabInstance:
     - target: {fileID: 383815525545768822, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 1589591490792911611, guid: 77094aea87def2e419ba30af9a042023, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8701206082783193431, guid: 77094aea87def2e419ba30af9a042023, type: 3}
       propertyPath: m_Name
