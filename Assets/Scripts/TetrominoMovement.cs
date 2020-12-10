@@ -28,7 +28,7 @@ public class TetrominoMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (frameCount == waitFrames  && ActivePiece && NotLost)
+        if (frameCount == waitFrames && ActivePiece && NotLost)
         {
             frameCount = 0;
             if (Input.GetKey(KeyCode.A))//moveNegX
@@ -80,7 +80,6 @@ public class TetrominoMovement : MonoBehaviour
                     transform.RotateAround(transform.TransformPoint(RotationPoint), new Vector3(1, 0, 0), 90);
             }
         }
-
 
         if (Input.GetKey(KeyCode.E))
         {
