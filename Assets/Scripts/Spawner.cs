@@ -10,12 +10,16 @@ public class Spawner : MonoBehaviour
     [HideInInspector] public GameObject HoldPiece;
     [HideInInspector] public GameObject[] NextTetrominosList;
 
-    private Vector3 NextTetPos = new Vector3(18f, 15f, -6);
+    private Vector3 NextTetPos1 = new Vector3(15.5f, 18f, -1);
+    private Vector3 NextTetPos2 = new Vector3(15.5f, 14f, -1);
+    private Vector3 NextTetPos3 = new Vector3(15.5f, 8f, -1);
+    private Vector3 NextTetPos4 = new Vector3(15.5f, 2f, -1);
     private bool started = false;
     // Start is called before the first frame update
     void Start()
     {
         LoadTetList();
+        SpawnFirstNextTets();
         NewTetromino();
         started = true;
     }
@@ -30,11 +34,13 @@ public class Spawner : MonoBehaviour
         else
         {
             piece = NextTetrominosList[0];
+            RotateList();
+
         }
         piece.transform.position = transform.position;
         piece.GetComponent<TetrominoMovement>().enabled = true;
-        RotateList();
-        SpawnNextTet();
+        if (started)
+            SpawnNextTet();
 
         if (piece.GetComponent<TetrominoMovement>().ValidMove())
         {
@@ -51,10 +57,25 @@ public class Spawner : MonoBehaviour
         }
     }
 
-    public void SpawnNextTet()
+    public void SpawnFirstNextTets()
     {
-        NextTetrominosList[0] = Instantiate(NextTetrominosList[0], NextTetPos, Quaternion.identity);
+        NextTetrominosList[0] = Instantiate(NextTetrominosList[0], NextTetPos1, Quaternion.identity);
         NextTetrominosList[0].GetComponent<TetrominoMovement>().enabled = false;
+        NextTetrominosList[1] = Instantiate(NextTetrominosList[1], NextTetPos2, Quaternion.identity);
+        NextTetrominosList[1].GetComponent<TetrominoMovement>().enabled = false;
+        NextTetrominosList[2] = Instantiate(NextTetrominosList[2], NextTetPos2, Quaternion.identity);
+        NextTetrominosList[2].GetComponent<TetrominoMovement>().enabled = false;
+        NextTetrominosList[3] = Instantiate(NextTetrominosList[3], NextTetPos4, Quaternion.identity);
+        NextTetrominosList[3].GetComponent<TetrominoMovement>().enabled = false;
+    }
+
+    public void SpawnNextTet() 
+    {
+        NextTetrominosList[0].transform.position = NextTetPos1;
+        NextTetrominosList[1].transform.position = NextTetPos2;
+        NextTetrominosList[2].transform.position = NextTetPos3;
+        NextTetrominosList[3] = Instantiate(NextTetrominosList[3], NextTetPos4, Quaternion.identity);
+        NextTetrominosList[3].GetComponent<TetrominoMovement>().enabled = false;
     }
 
     public void LoadTetList()
