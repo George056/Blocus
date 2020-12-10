@@ -9,6 +9,9 @@ public class TetrominoMovement : MonoBehaviour
     public static int Ymax = 20;
     public static int Zmax = 10;
 
+    public static int LineClearScore = 100;
+    public static int PlaneClearScore = LineClearScore * 20;
+
     [HideInInspector] public bool ActivePiece = false;
     [HideInInspector] public static bool NotLost = true;
 
@@ -19,10 +22,13 @@ public class TetrominoMovement : MonoBehaviour
     private int frameCount = 0;
     private int waitFrames = 10;
 
+    private GameManager instance;
+
     // Start is called before the first frame update
     void Start()
     {
         previousTime = Time.time;
+        instance = GameManager.instance;
     }
 
     // Update is called once per frame
@@ -120,6 +126,7 @@ public class TetrominoMovement : MonoBehaviour
             {
                 DeletePlane(y);
                 PlaneDown(y);
+                GameManager.Score += PlaneClearScore;
             }
         }
     }
@@ -182,6 +189,7 @@ public class TetrominoMovement : MonoBehaviour
                 {
                     DeleteLine(y,z);
                     RowDown(y,z);
+                    GameManager.Score += LineClearScore;
                 }
             }
         }
@@ -280,8 +288,8 @@ public class TetrominoMovement : MonoBehaviour
         NotLost = false;
     }
 
-    public void SetActive()
+    public void SetPeiceActive(bool active)
     {
-        ActivePiece = true;
+        ActivePiece = active;
     }
 }
