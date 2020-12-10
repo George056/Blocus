@@ -49,6 +49,6 @@ public class GameManager : MonoBehaviour
     public void PauseBtn()
     {
         Paused = !Paused;
-        ActivePiece.GetComponent<TetrominoMovement>().SetPeiceActive(!Paused);
+        ActivePiece.GetComponent<TetrominoMovement>().SetPieceActive(!Paused);
     }
 }

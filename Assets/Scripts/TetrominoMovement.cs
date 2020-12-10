@@ -288,7 +288,7 @@ public class TetrominoMovement : MonoBehaviour
         NotLost = false;
     }
 
-    public void SetPeiceActive(bool active)
+    public void SetPieceActive(bool active)
     {
         ActivePiece = active;
     }

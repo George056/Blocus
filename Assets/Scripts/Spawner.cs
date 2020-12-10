@@ -24,8 +24,8 @@ public class Spawner : MonoBehaviour
 
         if (piece.GetComponent<TetrominoMovement>().ValidMove())
         {
-            piece.GetComponent<TetrominoMovement>().SetActive();
-            Instantiate(piece, transform.position, Quaternion.identity);
+            piece.GetComponent<TetrominoMovement>().SetPieceActive(true);
+            GameManager.instance.ActivePiece = Instantiate(piece, transform.position, Quaternion.identity);
         }
         else
         {
