@@ -16,3 +16,6 @@ Based on a "normal" Tetris tutorial: https://www.youtube.com/watch?v=T5P8ohdxDjo
 
 Tutorial implementation: George       
 Home Screen: Ethan    
+Pause button: George   
+Playing UI: George    
+Holding and Next List: Ethan    
