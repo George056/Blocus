@@ -45218,7 +45218,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8cdda364e67c614cbe3442c3b70c22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ScoreTxt: {fileID: 0}
+  ScoreTxt: {fileID: 848550792}
   ActivePiece: {fileID: 0}
 --- !u!4 &1529522987
 Transform:
@@ -48025,7 +48025,7 @@ MonoBehaviour:
   - {fileID: 747694233607071734, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
   - {fileID: 2482448095681847929, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
   - {fileID: 8597516452634547492, guid: c7692396caf70ad479e7caef0b2be12f, type: 3}
-  HoldPeice: {fileID: 0}
+  HoldPiece: {fileID: 0}
   NextTetrominosList: []
 --- !u!4 &1622931290
 Transform:
