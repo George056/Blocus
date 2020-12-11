@@ -18,6 +18,9 @@ public class Spawner : MonoBehaviour
     private Vector3 HoldPos = new Vector3(-5f, 18f, -1);
     private bool started = false;
 
+    private Vector3 SpawnPoint = new Vector3(5f, 18f, 5f);
+    private bool HeldLastPiece = false;
+
     private bool PlacedInitial = false;
     // Start is called before the first frame update
     void Start()
@@ -40,6 +43,7 @@ public class Spawner : MonoBehaviour
 
     public void NewTetromino()
     {
+        HeldLastPiece = false;
         GameObject piece;
         if (started == false)
         {
@@ -111,24 +115,28 @@ public class Spawner : MonoBehaviour
 
     public void HoldIt(GameObject piece)
     {
-        if (HoldPiece == null)
+        if (!HeldLastPiece)
         {
-            HoldPiece = piece;
-            HoldPiece.transform.position = HoldPos;
-            HoldPiece.GetComponent<TetrominoMovement>().enabled = false;
-            NewTetromino();
-        }
-        else
-        {
-            GameObject temp = piece;                                //Place old piece on play area
-            piece = HoldPiece;
-            piece.transform.position = temp.transform.position;
-            piece.GetComponent<TetrominoMovement>().enabled = true;
-            GameManager.instance.ActivePiece = piece;
+            if (HoldPiece == null)
+            {
+                HoldPiece = piece;
+                HoldPiece.transform.position = HoldPos;
+                HoldPiece.GetComponent<TetrominoMovement>().enabled = false;
+                NewTetromino();
+            }
+            else
+            {
+                GameObject temp = piece;                                //Place old piece on play area
+                piece = HoldPiece;
+                piece.transform.position = SpawnPoint;
+                piece.GetComponent<TetrominoMovement>().enabled = true;
+                GameManager.instance.ActivePiece = piece;
 
-            HoldPiece = temp;                                       //Store new piece in hold
-            HoldPiece.transform.position = HoldPos;
-            HoldPiece.GetComponent<TetrominoMovement>().enabled = false;
+                HoldPiece = temp;                                       //Store new piece in hold
+                HoldPiece.transform.position = HoldPos;
+                HoldPiece.GetComponent<TetrominoMovement>().enabled = false;
+            }
+            HeldLastPiece = true;
         }
 
     }
