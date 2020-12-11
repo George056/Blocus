@@ -16,7 +16,7 @@ public class GameManager : MonoBehaviour
 
     [HideInInspector] public static GameManager instance;
 
-    [HideInInspector] public static int Score;
+    [HideInInspector] public static int Score = 0;
 
     [HideInInspector] public GameObject ActivePiece = null;
 
@@ -25,7 +25,7 @@ public class GameManager : MonoBehaviour
     private int _countdown = 3;
     private int _level = 0;
 
-    private int[] _levelScore = new int[] { 1000, 2000, 3000, 4000, 5000, 10000, 20000, 30000, 40000, 50000, 100000};
+    private int[] _levelScore = new int[] { 2000, 4000, 6000, 8000, 10000, 20000, 30000, 40000, 50000, 100000};
 
     // Start is called before the first frame update
     void Start()
@@ -92,11 +92,12 @@ public class GameManager : MonoBehaviour
             }
         }
 
-        if(Score >= _levelScore[_level])
+        if(Score >= _levelScore[_level] || Input.GetKeyDown(KeyCode.Alpha1))
         {
             _level++;
-            TetrominoMovement.fallTime /= 0.05f;
+            TetrominoMovement.fallTime *= 0.5f;
             LevelTxt.text = "Level: " + (_level).ToString("f0");
+            GetComponent<AudioSource>().pitch *= 1.05f;
         }
     }
 
