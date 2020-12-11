@@ -96,6 +96,7 @@ public class GameManager : MonoBehaviour
             _level++;
             TetrominoMovement.fallTime *= 0.5f;
             LevelTxt.text = "Level: " + (_level).ToString("f0");
+            GetComponent<AudioSource>().pitch *= 1.05f;
         }
     }
 
