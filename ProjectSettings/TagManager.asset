@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Tetromino
   - Grid
+  - active
+  - inactive
   layers:
   - Default
   - TransparentFX
@@ -15,8 +17,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Active
+  - Inactive
   - 
   - 
   - 
