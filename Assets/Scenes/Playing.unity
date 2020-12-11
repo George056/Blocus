@@ -47640,6 +47640,10 @@ MonoBehaviour:
   - {fileID: 747694233607071734, guid: 934cfd342e9ada340b25af0387aef51f, type: 3}
   - {fileID: 2482448095681847929, guid: fe27ecbc58038774e96e8433960b0f20, type: 3}
   - {fileID: 8597516452634547492, guid: c7692396caf70ad479e7caef0b2be12f, type: 3}
+  - {fileID: 8745038867565474296, guid: b6ca4bf2bc75e964c890f314d6d5c800, type: 3}
+  - {fileID: 309304711845054099, guid: d96bfee157ff6ef4787a7d4bbba073e2, type: 3}
+  - {fileID: 6562031141738826669, guid: 60692b515fc83cf4f9fa52c382394ecf, type: 3}
+  - {fileID: 8009523044691125912, guid: 39930293d442f0b4b8a80a86c1e68037, type: 3}
   HoldPiece: {fileID: 0}
   NextTetrominosList: []
   Paused: 0
