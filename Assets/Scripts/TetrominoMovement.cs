@@ -99,6 +99,11 @@ public class TetrominoMovement : MonoBehaviour
                     transform.position -= new Vector3(0, -1, 0);
             }
 
+            if (Input.GetKey(KeyCode.Q))
+            {
+                FindObjectOfType<Spawner>().HoldIt(gameObject);
+            }
+
             FixX();
             FixY();
             FixZ();
