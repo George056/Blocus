@@ -11,12 +11,14 @@ public class TetrominoMovement : MonoBehaviour
 
     public static int LineClearScore = 100;
     public static int PlaneClearScore = LineClearScore * 20;
+    public static int HardDropLineScore = 10;
+    public static int SoftDropLineScore = 5;
 
     [HideInInspector] public bool ActivePiece = false;
     [HideInInspector] public static bool NotLost = true;
 
     private float previousTime;
-    private float fallTime = 0.8f;
+    [HideInInspector] public static float fallTime = 0.8f;
     private static Transform[,,] grid = new Transform[Xmax, Ymax, Zmax];
 
     private int frameCount = 0;
@@ -98,12 +100,18 @@ public class TetrominoMovement : MonoBehaviour
 
             if (Input.GetKey(KeyCode.E) && newPieceDropBuffer == 0)
             {
+                int linesDroped = 0;
                 do
                 {
                     transform.position += new Vector3(0, -1, 0);
+                    linesDroped++;
                 } while (ValidMove());
                 if (!ValidMove())
+                {
                     transform.position -= new Vector3(0, -1, 0);
+                    linesDroped--;
+                }
+                GameManager.Score += HardDropLineScore * linesDroped;
             }
 
             if (Input.GetKey(KeyCode.Q))
@@ -115,7 +123,9 @@ public class TetrominoMovement : MonoBehaviour
             FixY();
             FixZ();
 
-            if (Time.time - previousTime > ((Input.GetKey(KeyCode.X)) ? (fallTime / 10) : fallTime))
+            bool softDrop = Input.GetKey(KeyCode.X);
+
+            if (Time.time - previousTime > ((softDrop) ? (fallTime / 10) : fallTime))
             {
                 transform.position += new Vector3(0, -1, 0);
                 if (!ValidMove())
@@ -127,6 +137,10 @@ public class TetrominoMovement : MonoBehaviour
                     this.enabled = false;
                     FindObjectOfType<Spawner>().NewTetromino();
                 }
+                else if(softDrop)
+                {
+                    GameManager.Score += SoftDropLineScore;
+                }
                 previousTime = Time.time;
             }
             frameCount++;
@@ -135,15 +149,17 @@ public class TetrominoMovement : MonoBehaviour
 
     void CheckForPlanes()
     {
+        int totalPlanesCleared = 0;
         for (int y = 0; y < Ymax; y++)
         {
             if (HasPlane(y))
             {
                 DeletePlane(y);
                 PlaneDown(y);
-                GameManager.Score += PlaneClearScore;
+                totalPlanesCleared++;
             }
         }
+        GameManager.Score += PlaneClearScore * (totalPlanesCleared + 1);
     }
 
     bool HasPlane(int y)
@@ -196,6 +212,7 @@ public class TetrominoMovement : MonoBehaviour
 
     void CheckForLines()
     {
+        int totalLinesCleared = 0;
         for (int y = Ymax - 1; y >= 0; y--)
         {
             for (int z = 0; z < Zmax; z++)
@@ -204,10 +221,11 @@ public class TetrominoMovement : MonoBehaviour
                 {
                     DeleteLine(y, z);
                     RowDown(y, z);
-                    GameManager.Score += LineClearScore;
+                    totalLinesCleared++;
                 }
             }
         }
+        GameManager.Score += LineClearScore * (totalLinesCleared + 1);
     }
 
     void DeleteLine(int y, int z)
