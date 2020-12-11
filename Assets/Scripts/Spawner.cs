@@ -71,7 +71,7 @@ public class Spawner : MonoBehaviour
         }
         else
         {
-            TetrominoMovement.Loss();
+            GameManager.instance.Loss();
         }
     }
 
