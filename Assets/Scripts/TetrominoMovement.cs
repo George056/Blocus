@@ -98,7 +98,9 @@ public class TetrominoMovement : MonoBehaviour
                 }
             }
 
-            if (Input.GetKey(KeyCode.E) && newPieceDropBuffer == 0)
+            bool hardDrop = Input.GetKey(KeyCode.E) && newPieceDropBuffer == 0;
+
+            if (hardDrop)
             {
                 int linesDroped = 0;
                 do
@@ -159,7 +161,7 @@ public class TetrominoMovement : MonoBehaviour
                 totalPlanesCleared++;
             }
         }
-        GameManager.Score += PlaneClearScore * (totalPlanesCleared + 1);
+        GameManager.Score += PlaneClearScore * ((totalPlanesCleared > 0) ? totalPlanesCleared + 1 : 0);
     }
 
     bool HasPlane(int y)
@@ -225,7 +227,7 @@ public class TetrominoMovement : MonoBehaviour
                 }
             }
         }
-        GameManager.Score += LineClearScore * (totalLinesCleared + 1);
+        GameManager.Score += LineClearScore * (totalLinesCleared > 0 ? totalLinesCleared + 1 : 0);
     }
 
     void DeleteLine(int y, int z)
