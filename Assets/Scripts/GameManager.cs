@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI ScoreTxt;
     public GameObject Spawner;
     public TextMeshProUGUI CountdownText;
+    public TextMeshProUGUI LevelTxt;
 
     public GameObject[] GridLinePlaneY;
     public GameObject[] GridLinePlaneZ;
@@ -22,6 +23,8 @@ public class GameManager : MonoBehaviour
     private float _time;
     private int _countdown = 3;
     private int _level = 0;
+
+    private int[] _levelScore = new int[] { 1000, 2000, 3000, 4000, 5000, 10000, 20000, 30000, 40000, 50000, 100000};
 
     // Start is called before the first frame update
     void Start()
@@ -38,6 +41,7 @@ public class GameManager : MonoBehaviour
 
         _time = Time.time;
         CountdownText.text = (_countdown).ToString("f0");
+        LevelTxt.text = "Level: " + (_level).ToString("f0");
         Score = 0;
         Paused = false;
     }
@@ -87,10 +91,11 @@ public class GameManager : MonoBehaviour
             }
         }
 
-        if((Score / 1000 - _level) == 1)
+        if(Score >= _levelScore[_level])
         {
             _level++;
             TetrominoMovement.fallTime /= 0.05f;
+            LevelTxt.text = "Level: " + (_level).ToString("f0");
         }
     }
 
