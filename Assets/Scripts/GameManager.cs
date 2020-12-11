@@ -14,6 +14,8 @@ public class GameManager : MonoBehaviour
     public GameObject[] GridLinePlaneY;
     public GameObject[] GridLinePlaneZ;
 
+    public GameObject ReturnHomeBtn;
+
     [HideInInspector] public static GameManager instance;
 
     [HideInInspector] public static int Score = 0;
@@ -115,5 +117,6 @@ public class GameManager : MonoBehaviour
     {
         Paused = !Paused;
         ActivePiece.GetComponent<TetrominoMovement>().SetPieceActive(!Paused);
+        ReturnHomeBtn.SetActive(Paused);
     }
 }

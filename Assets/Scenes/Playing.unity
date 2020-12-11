@@ -3979,7 +3979,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &124782625
 RectTransform:
   m_ObjectHideFlags: 0
@@ -55879,6 +55879,7 @@ MonoBehaviour:
   - {fileID: 150910508}
   - {fileID: 1820406762}
   - {fileID: 1328243056}
+  ReturnHomeBtn: {fileID: 124782624}
   ActivePiece: {fileID: 0}
   Paused: 0
 --- !u!4 &1529522987
