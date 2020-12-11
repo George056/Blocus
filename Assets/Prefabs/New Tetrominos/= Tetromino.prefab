@@ -51,6 +51,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RotationPoint: {x: 0, y: 0, z: 0}
   ActivePiece: 0
+  lineDelete: {fileID: 0}
 --- !u!1001 &1690965060570805499
 PrefabInstance:
   m_ObjectHideFlags: 0

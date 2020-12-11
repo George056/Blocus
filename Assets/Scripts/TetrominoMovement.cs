@@ -25,6 +25,8 @@ public class TetrominoMovement : MonoBehaviour
     private int waitFrames = 10;
     private int newPieceDropBuffer = 5;
 
+    public AudioSource lineDelete;
+
     private GameManager instance;
 
     // Start is called before the first frame update
@@ -234,6 +236,7 @@ public class TetrominoMovement : MonoBehaviour
         {
             Destroy(grid[x, y, z].gameObject);
             grid[x, y, z] = null;
+            lineDelete.Play(); 
         }
     }
 
