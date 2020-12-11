@@ -11,8 +11,8 @@ public class TetrominoMovement : MonoBehaviour
 
     public static int LineClearScore = 100;
     public static int PlaneClearScore = LineClearScore * 20;
-    public static int HardDropLineScore = 10;
-    public static int SoftDropLineScore = 5;
+    public static int HardDropLineScore = 5;
+    public static int SoftDropLineScore = 2;
 
     [HideInInspector] public bool ActivePiece = false;
     [HideInInspector] public static bool NotLost = true;
