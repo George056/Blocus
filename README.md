@@ -46,5 +46,6 @@ Holding and Next List: Ethan
 New pieces: Both   
 Level up: George   
 Audio: Both   
+Example Recording: Ethan   
 
 Overall: 45%:55% (Ethan:George)   
