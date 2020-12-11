@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
-    // Start is called before the first frame update
+    
 
     public static void LoadScene()
     {
@@ -15,6 +15,16 @@ public class Menu : MonoBehaviour
     public static void Quit()
     {
         Application.Quit();
+    }
+
+    public void ShowControls(GameObject InfoBox)
+    {
+        InfoBox.SetActive(true);
+    }
+
+    public void HideControls(GameObject InfoBox)
+    {
+        InfoBox.SetActive(false);
     }
 
 }

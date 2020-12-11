@@ -8,6 +8,7 @@ TagManager:
   - Grid
   - active
   - inactive
+  - InfoBox
   layers:
   - Default
   - TransparentFX
