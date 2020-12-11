@@ -9,11 +9,14 @@ public class GameManager : MonoBehaviour
     public GameObject Spawner;
     public TextMeshProUGUI CountdownText;
 
+    public GameObject[] GridLinePlaneY;
+    public GameObject[] GridLinePlaneZ;
+
     [HideInInspector] public static GameManager instance;
 
     [HideInInspector] public static int Score;
 
-    [HideInInspector] public GameObject ActivePiece;
+    [HideInInspector] public GameObject ActivePiece = null;
 
     private bool Paused;
     private float _time;
@@ -62,6 +65,25 @@ public class GameManager : MonoBehaviour
         {
             CountdownText.gameObject.SetActive(false);
             Spawner.GetComponent<Spawner>().Paused = false;
+        }
+
+        if (ActivePiece != null)
+        {
+            foreach (GameObject plane in GridLinePlaneY)
+            {
+                plane.SetActive(false);
+            }
+
+            foreach (GameObject plane in GridLinePlaneZ)
+            {
+                plane.SetActive(false);
+            }
+
+            foreach (Transform child in ActivePiece.transform)
+            {
+                GridLinePlaneY[10 - Mathf.RoundToInt(child.transform.position.z)].SetActive(true);
+                GridLinePlaneZ[9 - Mathf.RoundToInt(child.transform.position.z)].SetActive(true);
+            }
         }
     }
 
