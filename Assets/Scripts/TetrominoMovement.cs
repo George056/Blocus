@@ -21,6 +21,7 @@ public class TetrominoMovement : MonoBehaviour
 
     private int frameCount = 0;
     private int waitFrames = 10;
+    private int newPieceDropBuffer = 5;
 
     private GameManager instance;
 
@@ -36,6 +37,12 @@ public class TetrominoMovement : MonoBehaviour
     {
         if (ActivePiece && NotLost)//if not in a paused state
         {
+
+            if(newPieceDropBuffer > 0)
+            {
+                newPieceDropBuffer--;
+            }
+
             if (frameCount == waitFrames)
             {
                 frameCount = 0;
@@ -89,7 +96,7 @@ public class TetrominoMovement : MonoBehaviour
                 }
             }
 
-            if (Input.GetKey(KeyCode.E))
+            if (Input.GetKey(KeyCode.E) && newPieceDropBuffer == 0)
             {
                 do
                 {
