@@ -16,7 +16,7 @@ public class TetrominoMovement : MonoBehaviour
     [HideInInspector] public static bool NotLost = true;
 
     private float previousTime;
-    private float fallTime = 0.8f;
+    [HideInInspector] public static float fallTime = 0.8f;
     private static Transform[,,] grid = new Transform[Xmax, Ymax, Zmax];
 
     private int frameCount = 0;
@@ -135,15 +135,17 @@ public class TetrominoMovement : MonoBehaviour
 
     void CheckForPlanes()
     {
+        int totalPlanesCleared = 0;
         for (int y = 0; y < Ymax; y++)
         {
             if (HasPlane(y))
             {
                 DeletePlane(y);
                 PlaneDown(y);
-                GameManager.Score += PlaneClearScore;
+                totalPlanesCleared++;
             }
         }
+        GameManager.Score += PlaneClearScore * (totalPlanesCleared + 1);
     }
 
     bool HasPlane(int y)
@@ -196,6 +198,7 @@ public class TetrominoMovement : MonoBehaviour
 
     void CheckForLines()
     {
+        int totalLinesCleared = 0;
         for (int y = Ymax - 1; y >= 0; y--)
         {
             for (int z = 0; z < Zmax; z++)
@@ -204,10 +207,11 @@ public class TetrominoMovement : MonoBehaviour
                 {
                     DeleteLine(y, z);
                     RowDown(y, z);
-                    GameManager.Score += LineClearScore;
+                    totalLinesCleared++;
                 }
             }
         }
+        GameManager.Score += LineClearScore * (totalLinesCleared + 1);
     }
 
     void DeleteLine(int y, int z)

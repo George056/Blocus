@@ -21,6 +21,7 @@ public class GameManager : MonoBehaviour
     private bool Paused;
     private float _time;
     private int _countdown = 3;
+    private int _level = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -84,6 +85,12 @@ public class GameManager : MonoBehaviour
                 GridLinePlaneY[10 - Mathf.RoundToInt(child.transform.position.z)].SetActive(true);
                 GridLinePlaneZ[9 - Mathf.RoundToInt(child.transform.position.z)].SetActive(true);
             }
+        }
+
+        if((Score / 1000 - _level) == 1)
+        {
+            _level++;
+            TetrominoMovement.fallTime /= 0.05f;
         }
     }
 
