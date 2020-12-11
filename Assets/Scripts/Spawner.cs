@@ -9,6 +9,7 @@ public class Spawner : MonoBehaviour
 
     [HideInInspector] public GameObject HoldPiece;
     [HideInInspector] public GameObject[] NextTetrominosList;
+    [HideInInspector] public bool Paused;
 
     private Vector3 NextTetPos1 = new Vector3(15.5f, 18f, -1);
     private Vector3 NextTetPos2 = new Vector3(15.5f, 14f, -1);
@@ -16,13 +17,25 @@ public class Spawner : MonoBehaviour
     private Vector3 NextTetPos4 = new Vector3(15.5f, 2f, -1);
     private Vector3 HoldPos = new Vector3(-5f, 18f, -1);
     private bool started = false;
+
+    private bool PlacedInitial = false;
     // Start is called before the first frame update
     void Start()
     {
         LoadTetList();
         SpawnFirstNextTets();
-        NewTetromino();
-        started = true;
+        Paused = true;
+    }
+
+    private void Update()
+    {
+        if (!Paused && !PlacedInitial)
+        {
+            PlacedInitial = true;
+            started = true;
+
+            NewTetromino();
+        }
     }
 
     public void NewTetromino()
