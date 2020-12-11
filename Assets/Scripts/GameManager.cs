@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -19,7 +20,7 @@ public class GameManager : MonoBehaviour
 
     [HideInInspector] public GameObject ActivePiece = null;
 
-    private bool Paused;
+    public bool Paused;
     private float _time;
     private int _countdown = 3;
     private int _level = 0;
@@ -97,6 +98,11 @@ public class GameManager : MonoBehaviour
             TetrominoMovement.fallTime /= 0.05f;
             LevelTxt.text = "Level: " + (_level).ToString("f0");
         }
+    }
+
+    public static void LoadScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
 
     public void SetActivePiece(GameObject piece)
