@@ -58892,6 +58892,8 @@ MonoBehaviour:
   - {fileID: 8009523044691125912, guid: 39930293d442f0b4b8a80a86c1e68037, type: 3}
   - {fileID: 4780632403353711908, guid: d5110d3012f43c74f868c82d4dd7c142, type: 3}
   - {fileID: 7329246918462829732, guid: 2dfdfd7fa7745dd43861481e492abe49, type: 3}
+  - {fileID: 1904883168746405910, guid: dcb8b9710dc7e044e944ef0cb3a4e58d, type: 3}
+  - {fileID: 7853421276063836955, guid: 26772982fff4a624d91eae07c709e7f5, type: 3}
   HoldPiece: {fileID: 0}
   NextTetrominosList: []
   Paused: 0
