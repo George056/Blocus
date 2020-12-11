@@ -47,4 +47,4 @@ New pieces: Both
 Level up: George   
 Audio: Both   
 
-Overall: 
+Overall: 45%:55% (Ethan:George)   
