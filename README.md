@@ -9,6 +9,10 @@ George Cook
 
 Based on a "normal" Tetris tutorial: https://www.youtube.com/watch?v=T5P8ohdxDjo&t=20s 
 
+## Audio
+
+Tetris song at: https://ia800504.us.archive.org/33/items/TetrisThemeMusic/Tetris.mp3    
+
 ## Controles
 
 
