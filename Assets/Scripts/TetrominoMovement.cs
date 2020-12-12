@@ -194,7 +194,6 @@ public class TetrominoMovement : MonoBehaviour
             Destroy(grid[x, y, z].gameObject);
             grid[x, y, z] = null;
         }
-        planeClear.Play();
     }
 
     void PlaneDown(int y)
@@ -239,9 +238,7 @@ public class TetrominoMovement : MonoBehaviour
         for (int x = 0; x < Xmax; x++)
         {
             Destroy(grid[x, y, z].gameObject);
-            grid[x, y, z] = null;
-
-            lineClear.Play();
+            grid[x, y, z] = null; 
         }
     }
 
