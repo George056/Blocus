@@ -25,7 +25,8 @@ public class TetrominoMovement : MonoBehaviour
     private int waitFrames = 10;
     private int newPieceDropBuffer = 5;
 
-    public AudioSource lineDelete;
+    public AudioSource lineClear;
+    public AudioSource planeClear;
 
     private GameManager instance;
 
@@ -193,6 +194,7 @@ public class TetrominoMovement : MonoBehaviour
             Destroy(grid[x, y, z].gameObject);
             grid[x, y, z] = null;
         }
+        planeClear.Play();
     }
 
     void PlaneDown(int y)
@@ -238,7 +240,8 @@ public class TetrominoMovement : MonoBehaviour
         {
             Destroy(grid[x, y, z].gameObject);
             grid[x, y, z] = null;
-            lineDelete.Play(); 
+
+            lineClear.Play();
         }
     }
 
