@@ -23,7 +23,7 @@ public class TetrominoMovement : MonoBehaviour
 
     private int frameCount = 0;
     private int waitFrames = 10;
-    private int newPieceDropBuffer = 5;
+    private int newPieceDropBuffer = 25;
 
     public AudioSource lineClear;
     public AudioSource planeClear;
@@ -130,7 +130,7 @@ public class TetrominoMovement : MonoBehaviour
 
             bool softDrop = Input.GetKey(KeyCode.X);
 
-            if (Time.time - previousTime > ((softDrop) ? (fallTime / 10) : fallTime))
+            if (Time.time - previousTime > ((softDrop) ? (fallTime / 10) : fallTime) || hardDrop)
             {
                 transform.position += new Vector3(0, -1, 0);
                 if (!ValidMove())

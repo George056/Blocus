@@ -10,9 +10,12 @@ public class GameManager : MonoBehaviour
     public GameObject Spawner;
     public TextMeshProUGUI CountdownText;
     public TextMeshProUGUI LevelTxt;
+    public GameObject GameOverText;
 
     public GameObject[] GridLinePlaneY;
     public GameObject[] GridLinePlaneZ;
+
+    public GameObject ReturnHomeBtn;
 
     [HideInInspector] public static GameManager instance;
 
@@ -115,5 +118,12 @@ public class GameManager : MonoBehaviour
     {
         Paused = !Paused;
         ActivePiece.GetComponent<TetrominoMovement>().SetPieceActive(!Paused);
+        ReturnHomeBtn.SetActive(Paused);
+    }
+
+    public void Loss()
+    {
+        TetrominoMovement.Loss();
+        GameOverText.SetActive(true);
     }
 }
